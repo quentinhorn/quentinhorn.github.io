@@ -1,32 +1,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+.myForm {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    width: 30em;
+    padding: 1em;
+}
 
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+.myForm label {
+    padding:2px;
+    font-weight: 700;
+    text-align: right;
+    display: block;
+}
 
-     <title>Quentin Horn</title>
+.myForm input,
+.myForm select,
+.myForm textarea {
+    margin-left: 2em;
+    width : 20em;
+    border : 1px solid rgb(51, 173, 51);
+    font-family: Lucida;
+}
 
-     
-</head>
+.myForm textarea {
+    height: 100px;
+}
 
-<body>
+.myForm button {
+    border-radius : 0,5em;
+    background: #eee;
+    border: 2px;
+    font-weight : bold;
+    margin-left: 14em;
+}
 
-   <table>
-        <tr>
-             <th>Titre 1</th>
-             <th colspan="2"> Titre 2</th>
-        </tr>
-        <tr>
-             <td>Cell1</td>
-             <td rowspan="2">Cell2</td>
-             <td>Cell3</td>
-        </tr>
-        <tr>
-             <td>Cell1</td>
-             <td>Cell3</td>
-        </tr>
-    </table>
-     </body>
+.myForm button:hover {
+    background: #ccc;
+}
 </html>
